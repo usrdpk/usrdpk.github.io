@@ -2,17 +2,40 @@
 <html>
 <head>
 	<title>Deepak Mohan</title>
+	
+	<style>
+	* {
+  		box-sizing: border-box;
+	}
+
+	.row {
+		display: flex;
+	}
+	.column {
+  		flex: 50%;
+  		padding: 10px;
+  		height: 300px; /* Should be removed. Only for demonstration */
+	}
+	</style>
+
 </head>
+	
 <body>
 
 <h3>Deepak "dpk" Mohan</h3>
 <h5>Programmer, Problem Solver.</h5>
 
 <hr>
-<h5> Random notes.... </h5>
-<ul>
-    <li><a href="/gem5/gem5_simulator.txt">gem5 architectural simulator.</a></li>
-</ul>
-	
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>	
 </body>
 </html>
